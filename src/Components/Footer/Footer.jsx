@@ -83,13 +83,10 @@ const Footer = () => {
                   <Link to="/shop">Accessories</Link>
                 </li>
                 <li>
-                  <Link to="/shop">Men</Link>
+                  <Link to="/shop">Laptops</Link>
                 </li>
                 <li>
-                  <Link to="/shop">Women</Link>
-                </li>
-                <li>
-                  <Link to="/shop">Shop All</Link>
+                  <Link to="/shop">Mobile Phones</Link>
                 </li>
               </ul>
             </div>
@@ -141,7 +138,7 @@ const Footer = () => {
           <p>
             © {getCurrentYear()} Retro. All Rights Reserved | Made By{" "}
             <a
-              href="https://github.com/shakti177"
+              href="https://github.com/RogithPrabhakaran"
               target="_blank"
               rel="noreferrer"
               style={{ color: "#C22928", textDecoration: "none" }}

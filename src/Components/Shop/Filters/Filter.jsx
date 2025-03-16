@@ -12,7 +12,6 @@ const Filter = () => {
   const [value, setValue] = useState([12, 100]);
 
   const [selectedColors, setSelectedColors] = useState([]);
-  const [selectedSizes, setSelectedSizes] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [brandsData] = useState([
     { name: "Apple", count: 2 },
@@ -29,14 +28,6 @@ const Filter = () => {
       prevColors.includes(color)
         ? prevColors.filter((c) => c !== color)
         : [...prevColors, color]
-    );
-  };
-
-  const handleSizeChange = (size) => {
-    setSelectedSizes((prevSizes) =>
-      prevSizes.includes(size)
-        ? prevSizes.filter((s) => s !== size)
-        : [...prevSizes, size]
     );
   };
 
